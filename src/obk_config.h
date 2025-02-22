@@ -12,14 +12,14 @@
 // Defines for drivers from drv_main.c: ENABLE_DRIVER_*
 // Other defines: ENABLE_* , for example: ENABLE_LED_BASIC
 
-#define ENABLE_HTTP_MQTT		1
-#define ENABLE_HTTP_IP			1
-#define ENABLE_HTTP_WEBAPP		1
-#define ENABLE_HTTP_NAMES		1
-#define ENABLE_HTTP_MAC			1
-#define ENABLE_HTTP_FLAGS		1
-#define ENABLE_HTTP_STARTUP		1
-#define ENABLE_HTTP_PING		1
+#define ENABLE_HTTP_MQTT		0
+#define ENABLE_HTTP_IP			0
+#define ENABLE_HTTP_WEBAPP		0
+#define ENABLE_HTTP_NAMES		0
+#define ENABLE_HTTP_MAC			0
+#define ENABLE_HTTP_FLAGS		0
+#define ENABLE_HTTP_STARTUP		0
+#define ENABLE_HTTP_PING		0
 #define ENABLE_LED_BASIC		1
 
 #if PLATFORM_XR809
